@@ -1,0 +1,72 @@
+form {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: whitesmoke;
+  }
+  
+  
+  h2 {
+    text-align: center;
+    color:#420fa2;
+  }
+  
+  
+  label {
+    font-weight: bold;
+  }
+  
+  
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color:#437ae8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  
+  input[type="submit"]:hover {
+    background-color:#063558;
+  }
+  .footer {
+      background-color: #165ac7;
+      height: auto;
+      width: 100%;
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-around; 
+      align-items: center; 
+  }
+  
+  .footer-content {
+      text-align: center;
+  }
+  
+  .footer-content h3 {
+      color: white;
+  }
+  
+  .footer-content p {
+      color: white;
+      margin: 
+  }

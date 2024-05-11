@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+  .card {
+    border-radius: 15px; /* Add rounded corners to the card */
+    margin-bottom: 20px; /* Optional: Add margin for spacing between cards */
+  }
+
+  .card img {
+    border-radius: 15px 15px 0 0; /* Add rounded corners only to the top of the image */
+    width: 100%;
+    height: 200px; /* Set the desired height for your square image */
+    object-fit: cover; /* Ensure the image covers the entire square space */
+  }
+
+  .card-body {
+    padding: 15px; /* Add padding to the card body */
+  }
+
+  .card-body h4 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 10px; /* Optional: Add margin below the heading */
+  }
+
+  .card-body h8 {
+    font-size: 14px; /* Adjust font size as needed */
+    text-align: center; /* Center align the text */
+  }
+
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+    transform: scale(1.05); /* Add scale effect on hover */
+  }
+</style>
+<title>Curved Card Borders</title>
+</head>
+<body>
+<div class="container">
+  <h1 style="text-align:center">Our Programs</h1>
+  <h6 style="text-align: center;">Ace Your Skills In Problem Solving In DSA, System</h6>
+  <h6 style="text-align: center;">Design And Developement</h6>
+  <br>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <center><img src="images\1st pic.jpg" style="width: 80%; height: 60%;" alt="PEANUTS"></center>
+        <div class="card-body">
+          <center><h4>For collage students</h4>
+          <h8>Who want to rocket-start their career and get placed in their dream companies</h8></center><br>
+         <center><button type="button" class="btn btn-outline-primary">View Program -></button></center> 
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="card">
+        <center><img src="images\2nd pic.jpg" style="width: 80%; height: 60%;" alt="Bananas"></center>
+        <div class="card-body">
+         <center><h4>For Working Professionals</h4>
+          <h8>Who wish to shift to top product based companies and ace their tech careers</h8></center><br>
+          <center><button type="button" class="btn btn-outline-primary">View Program -></button></center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
